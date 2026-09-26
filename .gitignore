@@ -1,0 +1,28 @@
+# ============ GENEL ============
+.DS_Store
+Thumbs.db
+*.log
+
+# ============ BACKEND (Python) ============
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/.env
+backend/turkuaz.db
+backend/media/
+
+# ============ ANDROID ============
+android/local.properties
+android/.gradle/
+android/.idea/
+android/**/build/
+android/build/
+android/app/build/
+android/*.iml
+android/**/*.iml
+android/.cxx/
+android/captures/
+android/.externalNativeBuild/
+android/app/release/
+android/app/debug/
